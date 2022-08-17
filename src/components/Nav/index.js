@@ -24,12 +24,9 @@ export default function Nav() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <div className="container-fluid">
-      <header className="row col-13">
-        <div className="col-6">
-          <h1>Chad Rotruck</h1>
-        </div>
-        <div className="col-6">
+    <div className="">
+      <header className="">
+        <div>
           {/* We are passing the currentPage from state and the function to update it */}
           <NavTabs
             currentPage={currentPage}
